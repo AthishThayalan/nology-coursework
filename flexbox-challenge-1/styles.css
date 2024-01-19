@@ -23,19 +23,19 @@ nav {
 .links-container {
   display: flex;
   width: 37.5%;
-  height: 100%; /* Set the height to 100% of the nav bar */
+  height: 100%; 
   justify-content: space-evenly;
-  align-items: stretch; /* Ensure items stretch vertically */
+  align-items: stretch; 
   text-align: center;
 }
 
 .links-container p {
-  flex-grow: 1; /* Each link takes up equal space */
+  flex-grow: 1; 
   width: 12.5%;
-  height: 100%; /* Set the height to 100% of the nav bar */
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  height: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
   margin: 0;
 }
 
@@ -47,9 +47,9 @@ nav {
 .logo {
   margin: 0;
   height: 100%;
-  display: flex; /* Use flexbox */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 header p:hover {
@@ -89,5 +89,5 @@ h1 {
   width: 40%;
   border: 2px solid black;
   padding: 10px;
-  margin-left: 10px; /* Adjust the margin between left and right containers */
+  margin-left: 10px; 
 }
