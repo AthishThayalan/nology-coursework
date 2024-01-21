@@ -16,6 +16,24 @@ main {
   justify-content: center;
   align-items: center;
 }
+p {
+    margin-top: 50px;
+    font-size: 22px;
+    color: rgb(6, 56, 82);
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+  }
+
+span{
+    margin-top: 50px;
+    font-size: 22px;
+    color: rgb(6, 56, 82);
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+
+}
 
 h1 {
   font-size: 80px;
@@ -123,3 +141,11 @@ main img {
   margin-top: 80px;
   width: 60%;
 }
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    
+}
+
