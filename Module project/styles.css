@@ -17,22 +17,21 @@ main {
   align-items: center;
 }
 p {
-    margin-top: 50px;
-    font-size: 22px;
-    color: rgb(6, 56, 82);
-    font-family: sans-serif;
-    font-weight: 100;
-    text-align: center;
-  }
+  margin-top: 50px;
+  font-size: 22px;
+  color: rgb(6, 56, 82);
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
 
-span{
-    margin-top: 50px;
-    font-size: 22px;
-    color: rgb(6, 56, 82);
-    font-family: sans-serif;
-    font-weight: 700;
-    text-align: center;
-
+span {
+  margin-top: 50px;
+  font-size: 22px;
+  color: rgb(6, 56, 82);
+  font-family: sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
 
 h1 {
@@ -134,7 +133,7 @@ main button {
 }
 
 main button:hover {
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.3);
 }
 
 main img {
@@ -142,15 +141,24 @@ main img {
   width: 60%;
 }
 
-
-.content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.content {
+    background-color: transparent;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: -100px;
+  margin-left: 40px;
 }
-/* /* .p1,.p2 {
-    width: 150px; 
-    margin-bottom: 70px;
-    margin-left: 20px;
-} */
- */
+
+.content img {
+  height: 200px;
+  margin-bottom: 10%;
+}
+
+.content p {
+    text-align: left;
+  width: 100%;
+  
+}
