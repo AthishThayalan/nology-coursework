@@ -18,7 +18,7 @@ main {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 80px;
   color: rgb(3, 56, 84);
   font-family: "Grape Nuts", cursive;
   font-weight: 900;
@@ -50,10 +50,18 @@ h4 {
 }
 h5 {
   margin-top: 50px;
-  font-size: 27px;
+  font-size: 22px;
   color: rgb(6, 56, 82);
   font-family: sans-serif;
   font-weight: 100;
+  text-align: center;
+}
+h6 {
+  margin-top: 90px;
+  font-size: 43px;
+  color: rgb(3, 56, 84);
+  font-family: "Cabin", sans-serif;
+  font-weight: 900;
   text-align: center;
 }
 
@@ -93,7 +101,7 @@ nav button:hover {
 main button {
   margin-top: 85px;
   height: 80px;
-  width: 40%;
+  width: 52%;
   margin-right: 20px;
   border: 2.5px solid rgb(3, 56, 84);
   border-radius: 10px;
