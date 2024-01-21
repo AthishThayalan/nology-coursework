@@ -18,3 +18,19 @@ section div {
     height: 100px;
     display: inline-block;
 }
+
+section div:nth-child(1){
+    background-color: red;
+}
+section div:nth-child(2){
+    background-color: orange;
+}
+section div:nth-child(3){
+    background-color: yellow;
+}
+
+@media screen and (max-width:768px) {
+    section div {
+        width: 100%;
+    }
+}
