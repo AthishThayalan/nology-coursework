@@ -9,7 +9,9 @@ main {
   margin-top: 30px;
   padding: 10px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -59,4 +61,9 @@ button {
 button:hover {
   background-color: rgb(5, 42, 62);
   color: white;
+}
+
+main img{
+    margin-top: 80px;
+    width:60%;
 }
