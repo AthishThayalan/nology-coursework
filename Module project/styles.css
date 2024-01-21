@@ -1,0 +1,11 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+}
+nav button{
+    justify-content: flex-end;
+}
