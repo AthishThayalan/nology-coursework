@@ -22,3 +22,12 @@ function getLargestNumber(a, b, c) {
 function getLastName(arr) {
   return arr[arr.length - 1];
 }
+
+function allNumbersPositive(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < 0) {
+      return false;
+    }
+  }
+  return true;
+}
