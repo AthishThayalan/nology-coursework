@@ -7,18 +7,18 @@ function convertDaysToAge(n) {
 }
 
 function getLargestNumber(a, b, c) {
-  max = a;
+  let max = a;
   if (b > max) {
     max = b;
   }
 
-  if(c>max){
-    max =c
+  if (c > max) {
+    max = c;
   }
 
-  return max
+  return max;
 }
 
-function getLastName() {
-  return;
+function getLastName(arr) {
+  return arr[arr.length - 1];
 }
